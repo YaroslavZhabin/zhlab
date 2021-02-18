@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS STUDY_GROUP (
                                            id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
                                            name  TEXT NOT NULL
 );
+(1, 'Икбо-06-17');
 
 CREATE TABLE IF NOT EXISTS STUDENT (
                                        id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -10,6 +11,10 @@ CREATE TABLE IF NOT EXISTS STUDENT (
                                        second_name TEXT NOT NULL,
                                        study_group_id INTEGER NOT NULL
 );
+(1, 'Григорян', 'Григорий', 'Эдуардович',),
+(2, 'Жабин', 'Ярослав', 'Олегович',),
+(3, 'Журавлев', 'Максим', 'И.',),
+
 
 CREATE TABLE IF NOT EXISTS SUBJECT (
                                        id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
