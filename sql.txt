@@ -69,7 +69,6 @@ CREATE TABLE IF NOT EXISTS MARK (
                                     value TEXT NOT NULL
 );
 
-
 INSERT INTO MARK VALUES
 (1, 'Отлично', 5),
 (2, 'Хорошо', 4),
